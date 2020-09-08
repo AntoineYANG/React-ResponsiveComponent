@@ -1,5 +1,6 @@
 import React from "react";
-import { ResponsiveComponent } from "./ResponsiveComponent";
+import { render } from 'react-dom';
+import { ResponsiveComponent } from "../src/ResponsiveComponent";
 
 interface Size {
     w: number;
@@ -39,5 +40,22 @@ export class MyResponsiveCompo extends ResponsiveComponent<{}, {}> {
             return true;
         }
     }
-	
+  
 };
+
+const App = () => {
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          This is a demo.
+        </p>
+        <MyResponsiveCompo />
+      </header>
+    </div>
+  );
+  
+};
+
+render(<App />, document.querySelector('#root'));
