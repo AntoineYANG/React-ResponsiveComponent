@@ -1,6 +1,6 @@
 # You-ResponsiveComponent
 
-![](https://img.shields.io/badge/npm-v1.0.0-brightgreen)
+![](https://img.shields.io/badge/npm-v1.0.1-brightgreen)
 
 A base class extending React Component, which has a listener on window resize event. 
 
@@ -75,7 +75,7 @@ class MyResponsiveCompo extends ResponsiveComponent<{ id: number; }, {}> {};
 
 ```tsx
 import React from "react";
-import { ResponsiveComponent } from "you-responsivecomponent";
+import ResponsiveComponent from "you-responsivecomponent";
 
 interface Size {
     w: number;
