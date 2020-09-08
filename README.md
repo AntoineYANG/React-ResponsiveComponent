@@ -18,7 +18,7 @@ npm install you-responsivecomponent
 
 ### class ResponsiveComponent
 
->  *[src/ResonsiveComponent.tsx](https://github.com/AntoineYANG/You-ResponsiveComponent/blob/master/src/ResonsiveComponent.tsx)*
+>  *[src/ResponsiveComponent.tsx](https://github.com/AntoineYANG/You-ResponsiveComponent/blob/master/src/ResponsiveComponent.tsx)*
 
 A `ResponsiveComponent` object is a `React.Component` object which is responsive to **resize event**. You can override the object method `componentWillResize` to handle resize event, and decide if it's necessary to automatically trigger a `forceUpdate` call. 
 
